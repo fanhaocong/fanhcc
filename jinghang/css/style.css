@@ -1,0 +1,548 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        .ul li :hover{
+            background: url(../images/active.png) no-repeat center bottom !important;
+        }
+        .list li {
+            list-style: none;
+            font-size: 10px;
+            color: #c6c9cc;
+            float: left;
+            margin: 1vh 5px;
+        }
+
+        .list input {
+            border: none;
+            width: 11%;
+            height: 3.3vh;
+            color: #c1c2c5;
+            font-size: 10px;
+            background: url(../images/icon.png) no-repeat 3px center #f6f6f6;
+            padding-left: 4%;
+        }
+
+        input::-webkit-input-placeholder {
+            color: #c1c2c5;
+            font-size: 10px;
+        }
+
+        .list {
+            float: right;
+        }
+
+        html {
+            height: 100%;
+            overflow: hidden;
+            overflow: auto;
+        }
+
+        body {
+            height: 100%;
+        }
+
+        .lis {
+            width: 100%;
+            height: 100%;
+        }
+        .l3,.l4,.l5{
+            margin-top: 8.3vh;
+        }
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            background: blue;
+            height: 100%;
+            text-align: center;
+            color: #fff;
+        }
+
+        .swiper-pagination-bullet {
+            width: 20px !important;
+            height: 20px !important;
+            border-radius: 0% !important;
+            color: #fff !important;
+            margin: 0 10px !important;
+            opacity: 1 !important;
+        }
+
+        .swiper-pagination-bullet-active {}
+
+        #fp-nav ul li a span,
+        .fp-slidesNav ul li a span {
+            transition: 1.5s;
+        }
+
+        #fp-nav ul li a.active span,
+        .fp-slidesNav ul li a.active span {
+            transition: 1.5s;
+        }
+
+        .section p {
+            text-align: center;
+        }
+
+        .s1 {
+            background: url(../images/banner-1.png) no-repeat center;
+            background-size: 100% 120%;
+        }
+
+        .s2 {
+            background: url(../images/banner-2.png) no-repeat center;
+            background-size: 100% 120%;
+        }
+
+        .s3 {
+            background: url(../images/banner-3.png) no-repeat center;
+            background-size: 100% 120%;
+        }
+
+        .s4 {
+            background: url(../images/banner-4.png) no-repeat center;
+            background-size: 100% 120%;
+        }
+
+        .s5 {
+            background: url(../images/banner-5.png) no-repeat center;
+            background-size: 100% 120%;
+        }
+
+        .l2 {
+            background: url(../images/map.png) no-repeat center;
+            background-size: 100% 120%;
+        }
+
+        .top {
+            height: 11.11vh;
+            padding: 0 18.3%;
+            position: fixed;
+            top: 0;
+            background: rgba(238, 239, 240, 0.7);
+            z-index: 1000;
+            left: 0;
+            right: 0;
+        }
+
+        .top .logo {
+            float: left;
+        }
+
+        .logo img {
+            width: 70%;
+            /* height: 3.5vh; */
+            margin-top: 6.7vh;
+        }
+
+        .l3 .h2 {
+            height: 10.4vh;
+        }
+
+        .h2 h2 {
+            margin-top: 2vh;
+            text-align: center;
+            font-size: 23px;
+            font-weight: normal;
+            line-height: 10.4vh;
+            background: url(../images/solid.png) no-repeat center 8vh;
+            background-size: 20vh;
+        }
+
+        .l3 .imgs {
+            margin: 0 18.3%
+        }
+        .imgs li{
+        }
+        .imgs li p{
+            color: #fff;
+            font-size: 10px;
+            margin-top: 4vh;
+            cursor: pointer;
+        }
+        .imgs li i{
+            display: block;
+            text-align: center;
+            color: #fff;
+            font-size: 10px;
+            margin-top: 55vh;
+        }
+        .l3 .imgs li {
+            text-align: center;
+            float: left;
+            height: 70vh;
+            width: 24%;
+            margin: 0 0.5%;
+        }
+
+        .l3 .imgs li:nth-child(1) {
+            background: url(../images/shanghai.png) no-repeat center;
+            background-size: 100%;
+        }
+
+        .l3 .imgs li:nth-child(2) {
+            background: url(../images/qingdao.png) no-repeat center;
+            background-size: 100%;
+        }
+
+        .l3 .imgs li:nth-child(3) {
+            background: url(../images/beijing.png) no-repeat center;
+            background-size: 100%;
+        }
+
+        .l3 .imgs li:nth-child(4) {
+            background: url(../images/nanjing.png) no-repeat center;
+            background-size: 100%;
+        }
+
+        .btn {
+            text-align: center;
+        }
+
+        .btn img {
+            margin: 1.5vh auto;
+            width: 10%;
+        }
+        .btn4{
+            position: absolute;
+            left: 55%;
+            top: 75vh;
+        }
+        .btn4 img{
+            width: 50%;
+        }
+        
+        .btn2{
+            position: absolute;
+            left: 55%;
+            top: 75vh;
+        }
+        .btn2 img{
+            width: 50%;
+        }
+
+        .images {
+            margin: 0 18.3%
+        }
+        .images li:nth-child(1){
+            background: url(../images/fuzu.png) no-repeat center;
+            background-size:100%;
+        }
+        .images li:nth-child(2){
+            background: url(../images/guankong.png) no-repeat center;
+            background-size:100%;
+        }
+        .images li:nth-child(3){
+            background: url(../images/ruodian.png) no-repeat center;
+            background-size:100%;
+        }
+        .images li {
+            float: left;
+            height: 70vh;
+            width: 32.5%;
+            text-align: center;
+            margin: 0 0.4%;
+        }
+        .images li img{
+            width: 80%;
+            margin: 30vh auto;
+        }
+        .jianjie {
+            margin: 0 18.3%
+        }
+
+        .jianjie dl {
+            margin-top: 25vh;
+            height: 100%;
+        }
+
+        .jianjie dl dt {
+            float: left;
+            width: 30%;
+        }
+
+        .jianjie dl dt img {
+            width: 100%;
+            height: 33vh;
+        }
+
+        .jianjie dl dd {
+            float: left;
+            width: 67%;
+            margin-left: 3%;
+        }
+
+        .jianjie dl dd h2 {
+            height: 5.7vh;
+            font-size: 23px;
+            font-weight: normal;
+            background: url(../images/solid.png) no-repeat left 5vh;
+            background-size: 20vh;
+        }
+
+        .jianjie dl dd .img1 {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .jianjie dl dd .img2 {
+            margin-top: 10px;
+            width: 24%;
+        }
+        .da{
+            position: absolute;
+            width: 3%;
+            left: 65%;
+            top: 47vh
+        }
+        .xiao1{
+            position: absolute;
+            width: 1%;
+            left: 43.6%;
+            top: 65.7vh;
+        }
+        .xiao2{
+            position: absolute;
+            width: 1%;
+            left: 51%;
+            top: 62vh;
+        }
+        .xiao3{
+            position: absolute;
+            width: 1%;
+            left: 48.3%;
+            top: 75.3vh;
+        }
+        .xiao4{
+            position: absolute;
+            width: 1%;
+            left: 49.8%;
+            top: 77.3vh;
+        }
+        .xiao5{
+            position: absolute;
+            width: 1%;
+            left: 60%;
+            top: 63.7vh;
+        }
+        .xiao6{
+            position: absolute;
+            width: 1%;
+            left: 58.5%;
+            top: 63vh;
+        }
+        .xiao7{
+            position: absolute;
+            width: 1%;
+            left: 77.3%;
+            top: 75.3vh;
+        }
+        .xiao8{
+            position: absolute;
+            width: 1%;
+            left: 60.5%;
+            top: 54vh;
+        }
+        .fei1{
+            position: absolute;
+            transform: rotateZ(110deg);
+            width: 2%;
+            left: 65%;
+            top: 47.8vh;
+            display:none;
+        }
+        .fei2{
+            position: absolute;
+            display:none;
+            transform: rotateZ(105deg);
+            width: 2%;
+            left: 65%;
+            top: 47.9vh
+        }
+        .fei3{
+            position: absolute;
+            transform: rotateZ(95deg);
+            display:none;
+            width: 2%;
+            left: 65.5%;
+            top: 48vh
+        }
+        .fei4{
+            position: absolute;
+            transform: rotateZ(90deg);
+            width: 2%;
+            left: 65.5%;
+            top: 48vh;
+            display:none;
+        }
+        .fei5{
+            position: absolute;
+            transform: rotateZ(90deg);
+            width: 2%;
+            left: 65.5%;
+            top: 48vh;
+            display:none;
+        }
+        .fei6{
+            position: absolute;
+            transform: rotateZ(87deg);
+            display:none;
+            width: 2%;
+            left: 65.8%;
+            top: 48vh
+        }
+        .fei7{
+            position: absolute;
+            display:none;
+            width: 2%;
+            left: 65%;
+            top: 47vh;
+            
+        }
+        .fei8{
+            position: absolute;
+            display:none;
+            transform: rotateZ(105deg);
+            width: 2%;
+            left: 65%;
+            top: 47.9vh
+        }
+        .two1{
+            position: absolute;
+            width: 22%;
+            left: 59.5%;
+            top: 65vh;
+            display: none;
+        }
+        .two2{
+            position: absolute;
+            width: 22%;
+            left: 29%;
+            top: 29vh;
+            display: none;
+        }
+        .two3{
+            position: absolute;
+            width: 22%;
+            left: 55%;
+            top: 15vh;
+            display: none;
+        }
+        .footer {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 24vh;
+            z-index: 1000;
+            height: 7.5vh;
+            background: url(../images/footer.png) no-repeat left bottom;
+            background-size: 100%;
+        }
+
+        .text {
+            text-align: right;
+        }
+
+        .ul {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 5000;
+            padding: 0 18.3%;
+        }
+
+        .ul ul {
+            margin-left: 0%;
+            background: #ccc;
+        }
+
+        .ul li {
+            list-style: none;
+            float: right;
+            margin: 0 4%;
+            font-size: 10px;
+            height: 2.7vh;
+            cursor: pointer !important;
+        }
+
+        .ul li:first-child {
+            margin-left: 2% !important;
+        }
+
+        .ul li:last-child {
+            color: #0b5eae;
+            margin: 0 6% !important;
+        }
+
+        .active1 {
+            
+        }
+
+        .navimg {
+            position: absolute;
+            z-index: 1000;
+            left: 74%;
+            top: 3vh;
+        }
+        .navimg1 {
+            position: absolute;
+            z-index: 1000;
+            left: 40%;
+            top: 3vh;
+        }
+        .navimg2 {
+            position: absolute;
+            z-index: 1000;
+            left: 52%;
+            top: 3vh;
+        }
+        .navimg3 {
+            position: absolute;
+            z-index: 1000;
+            left: 64%;
+            top: 3vh;
+        }
+
+        #navshow {
+            width: 90%;
+            display: none;
+            height: 60vh;
+        }
+        #navshow1 {
+            width: 75%;
+            display: none;
+            height: 60vh;
+        }
+        #navshow2 {
+            width: 75%;
+            display: none;
+            height: 60vh;
+        }
+        #navshow3 {
+            width: 75%;
+            display: none;
+            height: 60vh;
+        }
+        .tre{
+            position: absolute;
+            top: 16vh;
+            left: 0;
+        }
+        .tre img{
+            width: 67%;
+        }
+        .fot1{
+            position: absolute;
+            left: 50%;
+            top: 35%;
+        }
+        .fot1 img{
+            width: 50%;
+        }
